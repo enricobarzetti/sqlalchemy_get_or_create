@@ -15,13 +15,13 @@ To get the latest stable release from PyPi
 Usage
 -----
 
-get_or_create(session, model, defaults=None, **kwargs)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_or_create(session, model, defaults=None, \*\*kwargs)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Same as Django's `get_or_create()` but also takes the SQLAlchemy session and model
 
-update_or_create(session, model, defaults=None, **kwargs)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+update_or_create(session, model, defaults=None, \*\*kwargs)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Same as Django's `update_or_create()` but also takes the SQLAlchemy session and model
 
