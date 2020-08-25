@@ -28,5 +28,5 @@ Same as Django's `update_or_create()` but also takes the SQLAlchemy session and 
 Acknowledgments
 ===============
 
-1. Django
-1. Some code cribbed from https://skien.cc/blog/2014/01/15/sqlalchemy-and-race-conditions-implementing-get_one_or_create/
+#. Django
+#. Some code cribbed from https://skien.cc/blog/2014/01/15/sqlalchemy-and-race-conditions-implementing-get_one_or_create/
