@@ -1,7 +1,7 @@
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm.exc import NoResultFound
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 def _extract_model_params(defaults, **kwargs):
