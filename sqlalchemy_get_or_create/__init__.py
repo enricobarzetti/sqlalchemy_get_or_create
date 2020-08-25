@@ -1,7 +1,9 @@
+from importlib.metadata import version
+
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm.exc import NoResultFound
 
-__version__ = '0.1.2'
+__version__ = version(__package__)
 
 
 def _extract_model_params(defaults, **kwargs):
