@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "sqlalchemy_get_or_create"
-version = "0.1.4"
+version = "0.1.5"
 description = "SQLAlchemy versions of Django's get_or_create() and update_or_create()"
 authors = ["Enrico Barzetti <enricobarzetti@gmail.com>"]
 readme = "README.rst"
+homepage = "https://github.com/enricobarzetti/sqlalchemy_get_or_create"
 
 [tool.poetry.dependencies]
 python = "^3.7"
